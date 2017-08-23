@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="POM Framework" duration-ms="31365" started-at="2017-08-22T01:16:43Z" finished-at="2017-08-22T01:17:14Z">
+    <groups>
+    </groups>
+    <test name="Buy new products" duration-ms="31365" started-at="2017-08-22T01:16:43Z" finished-at="2017-08-22T01:17:14Z">
+      <class name="com.automation.pages.TestBuyAProduct">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:com.automation.pages.TestBuyAProduct@4f30ec]" name="isSkip" is-config="true" duration-ms="2758" started-at="2017-08-22T06:46:43Z" finished-at="2017-08-22T06:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="buyProduct(java.lang.String, java.lang.String)[pri:0, instance:com.automation.pages.TestBuyAProduct@4f30ec]" name="buyProduct" duration-ms="28447" started-at="2017-08-22T06:46:46Z" data-provider="getData" finished-at="2017-08-22T06:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amarpreet911@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword4automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+      </class> <!-- com.automation.pages.TestBuyAProduct -->
+    </test> <!-- Buy new products -->
+  </suite> <!-- POM Framework -->
+</testng-results>

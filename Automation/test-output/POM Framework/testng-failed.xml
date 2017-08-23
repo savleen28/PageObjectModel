@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POM Framework]">
+  <test name="Buy new products(failed)">
+    <classes>
+      <class name="com.automation.pages.TestBuyAProduct">
+        <methods>
+          <include name="buyProduct" invocation-numbers="0"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.automation.pages.TestBuyAProduct -->
+    </classes>
+  </test> <!-- Buy new products(failed) -->
+</suite> <!-- Failed suite [POM Framework] -->
